@@ -11,16 +11,25 @@ body {
   font-family: "Big Shoulders Display", Verdana;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main-container {
   max-width: 375px;
 }
 
 /* Header */
 
-.location-container {
+.div-1 {
   background-image: url(../assets/mobile/image-map.png);
-  height: 500px;
   background-repeat: no-repeat;
+}
+
+.location-container {
+  /* background-image: url(../assets/mobile/image-map.png); */
+  height: 500px;
+  /* background-repeat: no-repeat; */
 }
 
 .button-container {
@@ -43,6 +52,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* .button-container__array:hover {
+  background-color: #151515;
+}
+
+.button-container__text:hover {
+  background-color: #d5966c;
+} */
+
+.button-container:hover .button-container__array {
+  background-color: #151515;
+}
+
+.button-container:hover .button-container__text {
+  background-color: #d5966c;
 }
 
 .button__text {
@@ -96,6 +121,8 @@ body {
   color: #ffffff;
 }
 
+/* Footer */
+
 .main-footer {
   background-color: #d5966c;
 }
@@ -127,4 +154,8 @@ body {
 .social-list__item {
   margin-right: 20px;
   font-size: 24px;
+}
+
+.social-list__item:hover {
+  color: white;
 }
