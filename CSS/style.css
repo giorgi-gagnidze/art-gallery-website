@@ -104,6 +104,7 @@ a {
   font-size: 50px;
   line-height: 45px;
   text-transform: uppercase;
+  margin-top: 25px;
   margin-bottom: 21px;
 }
 
@@ -187,4 +188,80 @@ a {
 .social-list__item:hover {
   color: #d5966c;
   cursor: pointer;
+}
+
+@media screen and (min-width: 650px) {
+  .main-container {
+    max-width: 768px;
+    padding: 0 40px;
+  }
+
+  .main-header {
+    background-image: url(../assets/tablet/image-hero.jpg);
+  }
+
+  .div-1 {
+    margin-top: 145px;
+    margin-left: 389px;
+    width: 339px;
+  }
+
+  .main-article__container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 11px;
+  }
+
+  .img-1 {
+    width: 398px;
+    margin-left: 68px;
+  }
+
+  .second-article {
+    display: flex;
+  }
+
+  .img-2 {
+    width: 398px;
+    height: 720px;
+    margin-right: 11px;
+  }
+
+  .img-3 {
+    height: 313px;
+  }
+
+  .second-article__container {
+    padding: 85px 29px 85px 29px;
+    margin-top: 8px;
+  }
+
+  .second-article__heading {
+    margin-bottom: 24px;
+  }
+
+  .main-footer {
+    max-width: 768px;
+    display: flex;
+    padding: 56px 40px 56px 40px;
+  }
+
+  .main-footer__heading {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 8px;
+    margin-right: 65px;
+  }
+
+  .main-footer__text {
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    margin-right: 133px;
+  }
 }
