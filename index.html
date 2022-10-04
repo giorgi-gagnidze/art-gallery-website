@@ -14,66 +14,84 @@
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Frontend Mentor | Art gallery website</title>
   </head>
   <body>
     <main class="main-container">
-      <header>
-        <h1>Modern Art Gallery</h1>
-        <p>
-          The arts in the collection of the Modern Art Gallery all started from
-          a spark of inspiration. Will these pieces inspire you? Visit us and
-          find out.
-        </p>
-        <a href="./location.html">
-          <div class="button-container">
-            <div class="button-container__array">
-              <img src="./assets/icon-arrow-right.svg" alt="arrow left" />
+      <header class="main-header">
+        <div class="div-1">
+          <h1 class="main-header__heading">Modern Art Gallery</h1>
+          <p class="main-header__text">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
+          </p>
+          <a href="./location.html">
+            <div class="button-container">
+              <div class="button-container__text">
+                <p class="button__text">Our location</p>
+              </div>
+              <div class="button-container__array">
+                <img src="./assets/icon-arrow-right.svg" alt="arrow left" />
+              </div>
             </div>
-            <div class="button-container__text">
-              <p class="button__text">Our location</p>
-            </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </header>
-      <img src="./assets/mobile/image-grid-1.jpg" alt="grid image" />
-      <section>
-        <h2>Your day <br />at the gallery</h2>
-        <p>
+      <img
+        src="./assets/mobile/image-grid-1.jpg"
+        alt="grid image"
+        class="img-1"
+      />
+      <section class="main-article__container">
+        <h2 class="main-article__heading">Your day <br />at the gallery</h2>
+        <p class="main-article__text">
           Wander through our distinct collections and find new insights about
           our artists. Dive into the details of their creative process.
         </p>
       </section>
-      <img src="./assets/mobile/image-grid-2.jpg" alt="" />
-      <div>
-        <img src="./assets/mobile/image-grid-3.jpg" alt="" />
-        <article>
-          <h2>Come &amp; be <br />inspired</h2>
-          <p>
+      <img
+        src="./assets/mobile/image-grid-2.jpg"
+        alt="grid image 2"
+        class="img-2"
+      />
+      <section>
+        <img
+          src="./assets/mobile/image-grid-3.jpg"
+          alt="grid image 3"
+          class="img-3"
+        />
+        <article class="second-article__container">
+          <h2 class="second-article__heading">Come &amp; be <br />inspired</h2>
+          <p class="second-article__text">
             We’re excited to welcome you to our gallery and see how our
             collections influence you.
           </p>
         </article>
-      </div>
-      <footer>
-        <h3>Modern Art <br />Gallery</h3>
-        <p>
-          The Modern Art Gallery is free to all visitors and open seven days a
-          week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-        </p>
-        <ul class="social-list">
-          <li class="social-list__item">
-            <i class="fa fa-facebook-official"></i>
-          </li>
-          <li class="social-list__item">
-            <i class="fa fa-instagram"></i>
-          </li>
-          <li class="social-list__item">
-            <i class="fa fa-twitter"></i>
-          </li>
-        </ul>
-      </footer>
+      </section>
     </main>
+    <footer class="main-footer">
+      <h3 class="main-footer__heading">Modern <br />Art Gallery</h3>
+      <p class="main-footer__text">
+        The Modern Art Gallery is free to all visitors and open seven days a
+        week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+      </p>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <i class="fa fa-facebook-official"></i>
+        </li>
+        <li class="social-list__item">
+          <i class="fa fa-instagram"></i>
+        </li>
+        <li class="social-list__item">
+          <i class="fa fa-twitter"></i>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

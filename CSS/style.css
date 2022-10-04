@@ -7,8 +7,184 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Big Shoulders Display", Verdana;
+  color: #151515;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
 
 .main-container {
   max-width: 375px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.main-header {
+  background-image: url(../assets/mobile/image-hero.jpg);
+  background-repeat: no-repeat;
+  height: 750px;
+}
+
+.div-1 {
+  margin-top: 272px;
+}
+
+.main-header__heading {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.main-header__text {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-bottom: 32px;
+}
+
+.button-container {
+  width: 274px;
+  height: 72px;
+  display: flex;
+}
+
+.button-container__array {
+  width: 56px;
+  background-color: #d5966c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container__text {
+  width: 208px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container:hover .button-container__array {
+  background-color: #151515;
+}
+
+.button-container:hover .button-container__text {
+  background-color: #d5966c;
+}
+
+.button__text {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 3.63636px;
+  text-transform: uppercase;
+}
+
+/* Main Article */
+
+.main-article__container {
+  margin-top: 25px;
+}
+
+.main-article__heading {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.main-article__text {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+  margin-bottom: 32px;
+}
+
+.img-2 {
+  margin-bottom: 16px;
+}
+
+.img-3 {
+  width: 100%;
+}
+
+/* Second Article */
+
+.second-article__container {
+  background-color: #151515;
+  margin-top: 16px;
+  padding: 48px 24px;
+  margin-bottom: 120px;
+}
+
+.second-article__heading {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.second-article__text {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+/* Footer */
+
+.main-footer {
+  background-color: #151515;
+  padding: 48px 32px 50px 32px;
+  max-width: 375px;
+}
+
+.main-footer__heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+
+.main-footer__text {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  color: #ffffff;
+}
+
+.social-list__item {
+  margin-right: 20px;
+  font-size: 24px;
+}
+
+.social-list__item:hover {
+  color: #d5966c;
+  cursor: pointer;
 }

@@ -146,6 +146,7 @@ a {
 
 .social-list__item:hover {
   color: white;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 650px) {
